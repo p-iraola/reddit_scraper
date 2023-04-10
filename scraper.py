@@ -21,7 +21,7 @@ def find_h3_tags(url):
     return h3_text_list
 
 # Call the function with a URL as an argument
-url = "example.com"
+url = "http://reddit.com/r/news"
 h3_text_list = find_h3_tags(url)
 
 # Print the text content of all the <h3> tags found
